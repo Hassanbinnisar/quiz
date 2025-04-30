@@ -1,0 +1,52 @@
+/* Existing styles from previous message */
+
+.question-title {
+    font-size: 1.5rem;
+    color: #00ffd5;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #17c6fc;
+  }
+  
+  .options {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .option-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #00ffd5;
+    color: rgb(238, 4, 4);
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .option-btn:hover {
+    background: #00ffd5;
+    color: #000;
+    transform: scale(1.03);
+  }
+  
+  .next-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #00ffd5;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    transform: scale(1.05);
+  }
+  
